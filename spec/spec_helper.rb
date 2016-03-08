@@ -5,7 +5,6 @@ require 'bundler/setup'
 
 Bundler.require(:default, ENV['RACK_ENV'])
 require 'capybara/rspec'
-require 'capybara/dsl'
 require 'tilt/erb'
 # require File.join(File.dirname(__FILE__), '..', './webkit-test.rb')
 require_relative '../webkit-test.rb'
